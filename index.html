@@ -1,52 +1,319 @@
-<!DOCTYPE HTML>
-<!--
-	Created by Hedi Bejaoui
-	www.hedibejaoui.me
-	contact@hedibejaoui.com
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-		<title>Hedi Bejaoui | Data Engineer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="keywords" content="devops, director, cloud, architect, consultant, infor, predictix, logicblox, JavaScript, python">
-		<meta name="description" content="Personal website for Hedi Bejaoui">
-		<meta name="author" content="Hedi Bejaoui">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="main">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hedi Bejaoui | Data Engineer</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="ThemesBoss" />
 
-				<!-- Header -->
-				<header id="header">
-					<h1>Hedi Bejaoui</h1>
-					<p>Data Engineer &nbsp;&bull;&nbsp; Big Data Consultant &nbsp;&bull;&nbsp; Entreprise Developer</p>
-					<nav>
-						<ul>
-							<li><a target="_blank" title="View my full resume" href="assets/CV.pdf" class="icon fa fa-id-card"><span class="label">Resume</span></a></li>
-							<li><a target="_blank" title="Check my LinkedIn profile" href="https://www.linkedin.com/in/hedybejaoui" class="icon fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a title="Send me an e-mail" href="mailto:contact@hedibejaoui.me" class="icon fa fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-					</nav>
-				</header>
-				<!-- Header -->
+        <link rel="shortcut icon" href="images/favicon.ico">
 
-				<!-- Footer -->
-				<footer id="footer">
-					<span class="copyright">&copy; 2020. <a href="index.html">Hedi Bejaoui.</a></span>
-				</footer>
-				<!-- Footer -->
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+        <!-- Materialdesign icons Css -->
+        <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+        <!-- Mobirise icons Css -->
+        <link rel="stylesheet" href="css/mobiriseicons.css">
+
+        <!-- Magnific-popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <!-- Animate Css -->
+        <link rel="stylesheet" href="css/animate.min.css">
+
+        <!-- Owl Slider -->
+        <link rel="stylesheet" href="css/owl.carousel.css" />
+        <link rel="stylesheet" href="css/owl.theme.css" />
+        <link rel="stylesheet" href="css/owl.transitions.css" />
+
+        <!-- Custom style Css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <!-- START LOADER -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">Loading...</div>
+            </div>
+        </div>
+        <!-- END LOADER -->
+
+        <!-- START NAVBAR -->
+        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand logo" href="index.html">
+                        <img src="images/logo.png" alt="" class="img-fluid logo-light">
+                        <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark">
+                    </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testimonial" class="nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!--START HOME-->
+        <section class="section h-100vh jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('images/home-bg.jpg');" id="home">
+            <div class="bg-overlay"></div>
+            <div class="home-table">
+                <div class="home-table-center">
+                    <div class="container position-relative z-index">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="text-white text-center">
+                                    <h4>Hello!</h4>
+                                    <h1 class="header_title mb-0 mt-3">I Am <span class="element font-weight-bold" data-elements="A Data Engineer.,A Big Data Consultant.,An Enterprise Developer."></span></h1>
+                                    <ul class="social_home list-unstyled text-center pt-4">
+                                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/hedybejaoui/" target="_blank"><i class="mdi mdi-linkedin-box"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://github.com/hedibejaoui" target="_blank"><i class="mdi mdi-github-circle"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll_down">
+                <a href="#about" class="scroll">
+                    <i class="mbri-arrow-down text-white"></i>
+                </a>
+            </div>
+        </section>
+        <!--END HOME-->
+
+        <!-- START ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row mt-4 pt-4">
+                    <div class="col-lg-12">
+                        <div class="text-center about-detail mx-auto mt-6">
+                            <h2><span class="font-weight-bold">About </span>Me</h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                            <div class="text-center about-detail mx-auto mt-5">
+                                <ul class="mb-0 list-inline text-center about-work">
+                                    <li class="list-inline-item mr-0 text-muted">Data Engineer</li>
+                                    <li class="list-inline-item mr-0 text-muted">Big Data Consultant</li>
+                                    <li class="list-inline-item mr-0 text-muted">Enterprise Developer</li>
+                                </ul>
+                                <p class="text-muted mt-3">Hands-on data engineer with a proven record of deploying scalable distributed applications, and supporting data science forecasting applications in production. Experienced in a variety of engineering technologies and model evaluation techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END ABOUT -->
+
+        <!-- START TESTIMONIALS -->
+        <section class="section bg-testimonial" id="testimonial">
+            <div class="testimonial-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center mx-auto text-white section-main-title">
+                            <h2><span class="font-weight-bold">Testimonials</span></h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 pt-6">
+                    <div class="col-lg-12">
+                        <div id="owl-demo" class="owl-carousel">
+                            <div class="text-white people_says text-center">
+                                <div class="people_icon">
+                                    <img src="images/ashwin_mishra.png" alt="">
+                                </div>
+                                <div class="people_review_box mt-4">
+                                    <p class="people_name text-white h5 font-weight-bold mb-0">Ashwin Mishra</p><br>
+                                    <p class="h6">Artificial Intelligence Consultant @ <span class="font-weight-bold">Google</span></p>
+                                    <p class="people_review text-white mx-auto pt-3 mb-0 font-italic">"Hedi initially reported to me as an intern and eventually as a full-time data engineer. During his time, he excelled at putting together a CNN based multi-label classifier using DeepFashion. Hedi's all-round skills stood out to me as not only was he able to put together an efficient solution, he packaged it well with a web-application and a live demo which resonated strongly with executive audiences.<br>
+                                        Hedi is calm and methodical in his problem solving and performs really well under pressure. Since our collaboration he has continued to evolve as a strong data engineering practitioner and that speaks to his commitment to continually improve. I have no hesitation in recommending him for any future opportunities."</p>
+                                </div>
+                            </div>
+                            <div class="text-white people_says text-center">
+                                <div class="people_icon">
+                                    <img src="images/firas_aloui.png" alt="">
+                                </div>
+                                <div class="people_review_box mt-4">
+                                    <p class="people_name text-white h5 font-weight-bold mb-0">Firas Aloui</p><br>
+                                    <p class="h6">Data Engineering and Architecture Manager @ <span class="font-weight-bold">Infor</span></p>
+                                    <p class="people_review text-white mx-auto pt-3 mb-0 font-italic">" The most well-known dummy text is the 'Lorem Ipsum', which is said originated the 16th century. This ancient dummy text is also  incomprehensible, of most European in Latin script."</p>
+                                </div>
+                            </div>
+                            <div class="text-white people_says text-center">
+                                <div class="people_icon">
+                                    <img src="images/varun_sridharan.png" alt="">
+                                </div>
+                                <div class="people_review_box mt-4">
+                                    <p class="people_name text-white h5 font-weight-bold mb-0">Varun Sridharan</p><br>
+                                    <p class="h6">Senior Technical Product Manager @ <span class="font-weight-bold">Amazon</span></p>
+                                    <p class="people_review text-white mx-auto pt-3 mb-0 font-italic">" The most well-known dummy text is the 'Lorem Ipsum', which is said originated the 16th century. This ancient dummy text is also  incomprehensible, of most European in Latin script."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END TESTIMONIALS -->
+
+        <!-- CONTACT FORM START-->
+        <section class="section " id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center mx-auto section-main-title">
+                            <h2>Get In <span class="font-weight-bold">Touch</span></h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 pt-4">
+                    <div class="col-lg-4">
+                        <div class="text-center mt-5">
+                            <div>
+                                <i class="mbri-mobile2 text-custom h2"></i>
+                            </div>
+                            <div class="mt-2">
+                                <p class="mb-0 font-weight-bold">Call Me On</p>
+                                <p class="text-muted">+21652456619</p>
+                            </div>
+                        </div>
+                        <div class="text-center mt-5">
+                            <div>
+                                <i class="mbri-letter text-custom h2"></i>
+                            </div>
+                            <div class="mt-2">
+                                <p class="mb-0 font-weight-bold">Email Me At</p>
+                                <p class="text-muted">med.hedy.bejaoui@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact_form">
+                            <form action="mailto:med.hedy.bejaoui@gmail.com" method="post" enctype="text/plain">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <label for="name" class="font-weight-bold">Name</label>
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <label for="email" class="font-weight-bold">Email address</label>
+                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email..."  required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <label for="subject" class="font-weight-bold">Subject</label>
+                                            <input type="text" class="form-control" id="subject" placeholder="Your subject.."  required=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <label for="comments" class="font-weight-bold">Message</label>
+                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." required=""></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 text-right">
+                                        <input type="submit" class="btn btn-custom" value="Send Message">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT FORM END-->
+
+        <!-- START FOOTER -->
+        <section class="bg-light">
+            <div class="container">
+                <div class="row pt-4 pb-4">
+                    <div class="col-lg-12">
+                        <div class="float-center text-center float_none mt-2 mb-2">
+                            <p class="copy-rights text-muted mb-0">2020 &copy; Hedi Bejaoui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END FOOTER -->
+
+        <!-- BACK TO TOP -->
+        <a href="#" class="back_top"> <i class="mbri-arrow-up"> </i> </a>
+
+
+        <!-- JAVASCRIPTS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!--EASING JS-->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <!-- TYPED -->
+        <script src="js/typed.js"></script>
+        <!-- MFP JS -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!--PORTFOLIO FILTER JS-->
+        <script src="js/isotope.js"></script>
+        <!--PARTICLES ANIMATE JS-->
+        <script src="js/particles.js"></script>
+        <script src="js/particles.app.js"></script>
+        <!-- PARALLAX JS -->
+        <script src="js/parallax.js"></script>
+        <!-- OWL CAROUSEL -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!--CUSTOM JS-->
+        <script src="js/custom.js"></script>
+        <script>
+            $(".element").each(function() {
+                var $this = $(this);
+                $this.typed({
+                    strings: $this.attr('data-elements').split(','),
+                    typeSpeed: 100,
+                    backDelay: 3000
+                });
+            });
+        </script>
+    </body>
+
 </html>
