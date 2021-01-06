@@ -61,9 +61,6 @@ $(window).on("scroll", function () {
         var e = $(this);
         e.typed({ strings: e.attr("data-elements").split(","), typeSpeed: 100, backDelay: 3e3 });
     }),
-    $("body").bind("cut copy paste", function (e) {
-        e.preventDefault();
-    }),
     (window.onload = function () {
         function e(e) {
             return e.stopPropagation ? e.stopPropagation() : window.event && (window.event.cancelBubble = !0), e.preventDefault(), !1;
